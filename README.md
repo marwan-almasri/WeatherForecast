@@ -53,5 +53,39 @@ gem install fastlane - NV
 Finally open `WeatherForecast.xcworkspace` and start development.
 
 ## Contributing
-If you are new to this repository, please read [development doc](/documentation/Development.md) first, then you have to look at the [architecture doc](/documentation/Architecture.md). If you to look at the project documentation go to 
+If you are new to this repository, please read [this](https://tech.olx.com/clean-architecture-and-mvvm-on-ios-c9d167d9f5b3) Medium Post first about __Clean Architecture + MVVM__ , then you have to look at the project documentation go to 
 `<Project Directory>/doc/index.htm` and open it in browser.
+
+## Architecture
+
+As we can see in Clean Architecture graph, we have different layers in the application. The main rule is not to have dependencies from inner layers to outers layers. The arrows pointing from outside to inside is the Dependency rule. There can only be dependencies from outer layer inward.
+
+![Digram](https://user-images.githubusercontent.com/86293803/124607163-42040900-de76-11eb-8fc3-ca9a172a9fb5.png)
+
+### Domain Layer
+(Business logic) is the inner-most part of the onion (without dependencies to other layers, it is totally isolated). 
+It contains:
+- Use Cases
+- Repositories Interfaces
+
+### Data Repositories Layer 
+contains Repository Implementations and one or many Data Sources. Data Source can be Remote or Local (for example persistent database or API). 
+It contains:
+- Repositories Implementations
+- API (Network)
+- Persistence DB
+
+### Presentation Layer (MVVM)
+Views are coordinated by ViewModels (Presenters) which execute one or many Use Cases. 
+It contains:
+- ViewModels
+- Views
+
+## Branching Strategy
+We are following `git-flow` branching strategy.
+- **main branch** - Stable release branch with tag
+- **stage branch** - beta release branch for QA and testing.
+- **dev branch** - a branch with new features
+- **hotfix branch** - a bug fixes on release, it should branch out from `main` and merged into `main` then rebasing `stag` and `dev` branches
+- **feature branch** - a branch where you develop a new feature, naming `feature/< FEATURE_NAME >`
+- **enhancement branch** - a branch where you modify existing feature, naming `enhancement/< ENHANCEMENT_NAME >`

@@ -1,0 +1,15 @@
+# Run jazzy from the current directory to generate documentation.
+
+module: 'WeatherForecast'
+sdk: 'ios'
+xcodebuild_arguments: ['-workspace','WeatherForecast.xcworkspace','-scheme','WeatherForecast']
+source_directory: './'
+module_version: '1.0.0'
+author: 'Marwan Al Masri'
+copyright: 'Copyright © LOC8. All rights reserved.'
+github_url: 'https://github.com/marwan-almasri/WeatherForecast'
+min_acl: 'private'
+output: 'docs'
+hide_documentation_coverage: false
+skip_undocumented:  false
+clean: true
