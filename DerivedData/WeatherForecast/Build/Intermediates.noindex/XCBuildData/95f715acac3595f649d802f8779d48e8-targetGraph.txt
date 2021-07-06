@@ -1,0 +1,9 @@
+Target dependency graph (4 targets)
+Alamofire in Pods
+SwiftLint in Pods
+Pods-WeatherForecast in Pods, depends on:
+Alamofire in Pods (explicit)
+SwiftLint in Pods (explicit)
+WeatherForecast in WeatherForecast, depends on:
+Pods-WeatherForecast in Pods (implicit dependency via file 'Pods_WeatherForecast.framework' in build phase 'Link Binary'
+Alamofire in Pods (implicit dependency via options '-framework Alamofire' in build setting 'OTHER_LDFLAGS'

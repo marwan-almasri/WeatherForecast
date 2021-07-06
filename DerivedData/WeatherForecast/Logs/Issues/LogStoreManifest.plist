@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3A6A8C16-5C98-486B-8463-46AB74536410</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>3A6A8C16-5C98-486B-8463-46AB74536410.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Alamofire-bwyqqbfgofwrrkcuzjmjncbysmms</string>
+			<key>timeStartedRecording</key>
+			<real>647178868.45263696</real>
+			<key>timeStoppedRecording</key>
+			<real>647178868.548159</real>
+			<key>title</key>
+			<string>Build target Alamofire</string>
+			<key>uniqueIdentifier</key>
+			<string>3A6A8C16-5C98-486B-8463-46AB74536410</string>
+		</dict>
+		<key>A227190A-DC91-406E-9224-D51DC9A99209</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>A227190A-DC91-406E-9224-D51DC9A99209.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-WeatherForecast-bwyqqbfgofwrrkcuzjmjncbysmms</string>
+			<key>timeStartedRecording</key>
+			<real>647178868.54906499</real>
+			<key>timeStoppedRecording</key>
+			<real>647178868.56973195</real>
+			<key>title</key>
+			<string>Build target Pods-WeatherForecast</string>
+			<key>uniqueIdentifier</key>
+			<string>A227190A-DC91-406E-9224-D51DC9A99209</string>
+		</dict>
+		<key>ECA9DCC2-E304-4C0F-8F1E-136E133FFF0F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>ECA9DCC2-E304-4C0F-8F1E-136E133FFF0F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>WeatherForecast-cmmeemwctrrlcigcymgdfftytjkh</string>
+			<key>timeStartedRecording</key>
+			<real>647187012.92970598</real>
+			<key>timeStoppedRecording</key>
+			<real>647187014.69015205</real>
+			<key>title</key>
+			<string>Build target WeatherForecast</string>
+			<key>uniqueIdentifier</key>
+			<string>ECA9DCC2-E304-4C0F-8F1E-136E133FFF0F</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
