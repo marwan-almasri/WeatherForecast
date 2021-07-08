@@ -8,7 +8,6 @@
 import UIKit
 
 class ReportViewController: UIViewController, StoryboardInstantiable {
-    
     // MARK: - Lifecycle
 
     private var viewModel: ReportViewModel!
@@ -32,6 +31,5 @@ class ReportViewController: UIViewController, StoryboardInstantiable {
     // MARK: - Private
 
     private func setupViews() {
-        
     }
 }
